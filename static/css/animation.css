@@ -1,0 +1,22 @@
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+#banner_rotation{
+    animation: rotaion 45s linear infinite reverse both running ;
+    
+}
+@keyframes rotaion {
+    0%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}

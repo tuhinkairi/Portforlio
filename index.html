@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="shortcut icon" href="static/img/webdev-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- <link rel="stylesheet" href="static/css/mode.css"> -->
+    <link rel="stylesheet" href="static/css/animation.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="max-w-screen  overflow-x-hidden bg-[#0c0c0c]  " data-aos="fade-up" data-aos-duration="700">
+    <header  class="scroll-smooth sticky top-0 z-[100] bg-inherit">
+
+        <nav class="relative z-10 w-full flex justify-between items-center border-b border-collapse">
+            <div class="hidden sm:flex items-center justify-center text-white text-xs font-semibold ">
+                <span><a id="logo_tag"
+                        class="italic inline-block mr-2 px-4 underline py-4 bg-white text-black font-extrabold"
+                        href="#">TK</a></span>
+                <span><a class="inline-block px-3 py-4 hover:underline underline-offset-2" 
+                        href="index.html">HOME</a></span>
+                <span><a class="inline-block px-3 py-4 hover:underline underline-offset-2" target="_blank"
+                        href="About.html">ABOUT</a></span>
+                <span><a class="inline-block px-3 py-4 hover:underline underline-offset-2"
+                        href="#ContactUs">CONTACT US</a></span>
+                <span><a class="inline-block px-3 py-4 hover:underline underline-offset-2" target="_blank"
+                        href="Work.html">WORK</a></span>
+                <span><a class="inline-block px-3 py-4 hover:underline underline-offset-2"
+                        href="Blog.html">BLOG</a></span>
+
+            </div>
+            <div class="relative sm:hidden w-full flex items-center justify-between text-white text-xs font-semibold ">
+                <span><a id="logo_tag"
+                        class="italic inline-block mr-2 px-4 underline py-4 bg-white text-black font-extrabold"
+                        href="#">TK</a></span>
+                <button id="toggle_menu" class="relative z-[100] inline-block px-3 py-4">
+                    <span class="w-6 h-0.5 bg-white block"></span>
+                    <span class="w-6 h-0.5 bg-white block my-1"></span>
+                    <span class="w-6 h-0.5 bg-white block"></span>
+                </button>
+
+            </div>
+            <button id="mode" type="button" class="rounded-full border border-white mr-5 ">
+                <span class="inline-block  px-2 py-2 text-white material-symbols-outlined border border-transparent rounded-full">
+                    dark_mode
+                </span>
+            </button>
+        </nav>
+        <nav id="small_nav" class="h-0 overflow-hidden w-screen flex items-center justify-center sm:hidden transition-all text-white  text-xs font-semibold ">
+            
+            <span><a class="inline-block px-3 py-4 hover:underline underline-offset-2"
+                    href="index.html">HOME</a></span>
+            <span><a class="inline-block px-3 py-4 hover:underline underline-offset-2" target="_blank"
+                    href="About.html">ABOUT</a></span>
+            <span><a class="inline-block px-3 py-4 hover:underline underline-offset-2" 
+                    href="#ContactUs">CONTACT US</a></span>
+            <span><a class="inline-block px-3 py-4 hover:underline underline-offset-2" target="_blank"
+                    href="Work.html">WORK</a></span>
+            <span><a class="inline-block px-3 py-4 hover:underline underline-offset-2" href="Blog.html">BLOG</a></span>
+
+        </nav>
+    </header>
+    <main class="w-full " >
+        <div id="_banner" style="background: linear-gradient(130deg, #0c0c0c 50%, 0, #fff 50%)">
+
+            <section
+                class=" relative h-[80vh] grid grid-rows-3 justify-center items-center text-white text-center border border-b border-x-transparent border-t-transparent pt-4">
+
+                <h1 
+                    class="font-bold uppercase text-[100px] scale-x-[60%] scale-y-[165%] sm:text-[170px] md:text-[200px] sm:scale-y-100 sm:scale-x-50 whitespace-nowrap mix-blend-difference pt-3" style="background-color: transparent !important;">
+                    Tuhin kairi</h1>
+                    <!-- text-[28vw] scale-y-150 sm:scale-0 sm:text-[24vw] md: -->
+                <h1
+                    class=" uppercase text-[90px] scale-x-[55%] scale-y-[145%] sm:text-[170px] md:text-[200px] sm:scale-y-100 sm:scale-x-50 bg-transparent whitespace-nowrap pt-4 mix-blend-difference" style="background-color: transparent !important;">
+                    Web Developer</h1>
+                <!-- <h1
+                    class="font-bold uppercase text-[200px] scale-x-50 whitespace-nowrap mix-blend-difference pt-3" style="background-color: transparent !important;">
+                    Tuhin kairi</h1>
+                <h1
+                    class="  uppercase text-[200px] scale-x-50 bg-transparent whitespace-nowrap pt-4 mix-blend-difference" style="background-color: transparent !important;">
+                    Web Devloper</h1> -->
+                
+                <div class="w-fit mt-7 mx-auto ">
+                    <button class="px-5 border py-3 border-[#0c0c0c] text-[#0c0c0c] hover:bg-[#0c0c0c] hover:text-white">Learn
+                        More</button>
+                </div>
+            </section>
+        </div>
+        <div  class="  overflow-hidden w-screen border-b   ">
+            <section id="banner_rotation" class="w-full flex items-center ">
+
+                <h1 class="min-w-[70%] md:min-w-[45%] py-4 text-center bg-white">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Alias, accusamus!</h1>
+                <h1 class="min-w-[70%] md:min-w-[45%] py-4 text-center  text-white bg-[#0c0c0c]">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Alias, accusamus!</h1>
+                <h1 class="min-w-[70%] md:min-w-[45%] py-4 text-center  bg-white">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Alias, accusamus!</h1>
+                <h1 class="min-w-[70%] md:min-w-[45%] py-4 text-center  text-white bg-[#0c0c0c]">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Alias, accusamus!</h1>
+            </section>
+        </div>
+        <section data-aos="fade-up" id="skills" class="text-white grid items-center py-10 sm:px-10  ">
+            <h1  class="text-center font-bold  uppercase text-[4.5rem] sm:text-[2.7rem] transition scale-y-[200%] leading-none sm:scale-y-[300%] sm:scale-x-[130%] my-28 mb-40">
+                Let Me Flex My Skills</h1>
+                
+            <!-- skills shows -->
+            <div data-aos="fade-up" class=" sm:px-5 md:px-20">
+
+                <div class="text-5xl font-bold h-full p-3 grid grid-rows-5 gap-5 cursor-pointer">
+                    <div class="w-full grid grid-cols-1 gap-y-2 md:grid-cols-2 items-center justify-center px-2 ">
+                        <h1 data-aos="fade-right" class="uppercase flex items-center">Django / Flask</h1>
+                        <div data-aos="fade-left" class=" w-full h-3.5 border rounded-xl border-gray-500 ">
+                            <div class=" h-full  w-[90%] bg-indigo-400 rounded-xl "></div>
+                            <!-- transition -translate-x-[100%] hover:translate-x-0 -->
+                        </div>
+                    </div>
+                    <div class="w-full grid grid-cols-1 gap-y-2 md:grid-cols-2 items-center justify-center px-2 cursor-pointer">
+                        <h1 data-aos="fade-right" class="uppercase flex items-center">Express Js</h1>
+                        <div data-aos="fade-left" class=" w-full h-3.5 border rounded-xl border-gray-500 ">
+                            <div class="h-full  w-[87%] bg-yellow-300 rounded-xl"></div>
+                        </div>
+                    </div>
+                    <div class="w-full grid grid-cols-1 gap-y-2 md:grid-cols-2 items-center justify-center px-2 cursor-pointer">
+                        <h1 data-aos="fade-right" class="uppercase flex items-center ">Tailwind Css</h1>
+                        <div data-aos="fade-left" class=" w-full h-3.5 border rounded-xl border-gray-500 ">
+                            <div class="h-full  w-[85%] bg-purple-300 rounded-xl"></div>
+                        </div>
+                    </div>
+                    <div class="w-full grid grid-cols-1 gap-y-2 md:grid-cols-2 items-center justify-center px-2 cursor-pointer">
+                        <h1 data-aos="fade-right" class="uppercase flex items-center">React</h1>
+                        <div data-aos="fade-left" class=" w-full h-3.5 border rounded-xl border-gray-500 cursor-pointer">
+                            <div class="h-full  w-[77%] bg-blue-400 rounded-xl"></div>
+                        </div>
+                    </div>
+                    <div class="w-full grid grid-cols-1 gap-y-2 md:grid-cols-2 items-center justify-center px-2 cursor-pointer">
+                        <h1 data-aos="fade-right" class="uppercase flex items-center">SQL / Mongo</h1>
+                        <div data-aos="fade-left" class=" w-full h-3.5 border rounded-xl border-gray-500 ">
+                            <div class="h-full w-[78%] bg-green-400 rounded-xl"></div>
+                        </div>
+                    </div>
+                    <div class="w-full grid grid-cols-1 gap-y-2 md:grid-cols-2 items-center justify-center px-2 ">
+                        <h1 data-aos="fade-right" class="uppercase flex items-center">other</h1>
+                        <div data-aos="fade-left" class=" w-full h-3.5 border rounded-xl border-gray-500 ">
+                            <div class="h-full w-[91%] bg-gray-300 rounded-xl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button data-aos="fade-up"
+                class="inline-block w-fit m-auto px-5 text-white border py-3 my-20 border-white hover:bg-white hover:text-[#0c0c0c]">See
+                My Projects</button>
+
+        </section>
+        
+        <section data-aos="fade-up" id='Services' class="p-10 px-10 lg:px-20 pb-20 border-t">
+
+            <h1 class="text-center text-white font-bold  uppercase text-[4.5rem] sm:text-[2.7rem] transition scale-y-[200%] leading-none sm:scale-y-[300%] sm:scale-x-[130%] my-20 mb-36 sm:mb-20">
+                My Services</h1>
+            <!-- <h1 class="text-center font-bold  uppercase text-5xl transition scale-y-[300%] scale-x-[120%] my-28 mb-40 text-white">
+                My Services</h1> -->
+            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-5 items-center justify-center">
+                <div  data-aos="fade-up" data-aos-delay="100"
+                    class="_service_card cursor-pointer transition bg-white hover:scale-105 relative my-3 py-4 px-3 overflow-hidden border rounded-md">
+                    <div class="w-full flex items-center justify-center ">
+
+                        <img class="inline-block  w-32 h-32" src="static/img/webdev-removebg-preview.png" alt="logo">
+                    </div>
+                    <h1 class="text-center text-xl mt-4 font-semibold">WEB DEVELOPMENT</h1>
+                    <!-- discription card -->
+                    <div
+                        class="discription_card w-full h-full absolute z-10 bg-[rgba(0,0,0,.9)] top-0 left-0 p-2  transition opacity-0 opac duration-300 ease-linear">
+                        <p class="text-white font-semibold text-center ">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, iusto. Tempore in aut
+                            facere, sapiente officia, sunt facilis fugiat tempora eligendi nam laboriosam ut explicabo
+                            possimus minus maxime, eveniet eum!
+                        </p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200"
+                    class="_service_card cursor-pointer transition bg-white hover:scale-105 relative my-3 py-4 px-3 overflow-hidden border rounded-md">
+                    <div class="w-full flex items-center justify-center ">
+
+                        <img class="inline-block  w-32 h-32" src="static/img/design.jpg" alt="logo">
+                    </div>
+                    <h1 class="text-center text-xl mt-4 font-semibold">AUTOMATION / BOTS</h1>
+                    <!-- discription card -->
+                    <div
+                        class="discription_card w-full h-full absolute z-10 bg-[rgba(0,0,0,.9)] top-0 left-0 p-2  transition opacity-0 opac duration-300 ease-linear">
+                        <p class="text-white font-semibold text-center ">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, iusto. Tempore in aut
+                            facere, sapiente officia, sunt facilis fugiat tempora eligendi nam laboriosam ut explicabo
+                            possimus minus maxime, eveniet eum!
+                        </p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300"
+                    class="_service_card cursor-pointer transition bg-white hover:scale-105 relative my-3 py-4 px-3 overflow-hidden border rounded-md">
+                    <div class="w-full flex items-center justify-center ">
+
+                        <img class="inline-block  w-32 h-32" src="static/img/ss.jpg" alt="logo">
+                    </div>
+                    <h1 class="text-center text-xl mt-4 font-semibold">SOFTWERE SOLUTIONS</h1>
+                    <!-- discription card -->
+                    <div
+                        class="discription_card w-full h-full absolute z-10 bg-[rgba(0,0,0,.9)] top-0 left-0 p-2  transition opacity-0 opac duration-300 ease-linear">
+                        <p class="text-white font-semibold text-center ">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, iusto. Tempore in aut
+                            facere, sapiente officia, sunt facilis fugiat tempora eligendi nam laboriosam ut explicabo
+                            possimus minus maxime, eveniet eum!
+                        </p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="400"
+                    class="_service_card cursor-pointer transition bg-white hover:scale-105 relative my-3 py-4 px-3 overflow-hidden border rounded-md">
+                    <div class="w-full flex items-center justify-center ">
+
+                        <img class="inline-block  w-32 h-32" src="static/img/ml.jpg" alt="logo">
+                    </div>
+                    <h1 class="text-center text-xl mt-4 font-semibold">MACHINGE LEARNING</h1>
+                    <!-- discription card -->
+                    <div
+                        class="discription_card w-full h-full absolute z-10 bg-[rgba(0,0,0,.9)] top-0 left-0 p-2  transition opacity-0 opac duration-300 ease-linear">
+                        <p class="text-white font-semibold text-center">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, iusto. Tempore in aut
+                            facere, sapiente officia, sunt facilis fugiat tempora eligendi nam laboriosam ut explicabo
+                            possimus minus maxime, eveniet eum!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section data-aos="fade-up"  class="_blog_section p-10 px-5 sm:px-10 pb-20 border-t">
+
+            <h1
+                class="text-center text-white font-bold  uppercase text-[4.5rem] sm:text-[2.7rem] transition scale-y-[200%] leading-none sm:scale-y-[300%] sm:scale-x-[130%] my-20 mb-28 sm:mb-20">
+                blogs</h1>
+            <div class="_blog_container  grid grid-cols-1 gap-y-3 lg:grid-cols-3 items-center justify-center border-collapse py-10">
+                
+                <div data-aos="fade-up" data-aos-delay="100" class=" m-auto w-full sm:w-3/4 md:w-1/2 lg:w-full  border px-3 border-collapse p-2">
+                    <div  class="_blog border overflow-hidden border-white border-collapse">
+                        <img class="transition w-full  hover:scale-150 hover:rotate-12" src="static/img/mybanner.jpg" alt="img">
+                    </div>
+                    <h1 class=" text-white py-2">Lorem, ipsum dolor.</h1>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" class="m-auto w-full sm:w-3/4 md:w-1/2 lg:w-full  border px-3 border-collapse p-2">
+                    <div  class="_blog border overflow-hidden border-white border-collapse">
+                        <img class="transition w-full hover:scale-150 hover:rotate-12" src="static/img/mybanner.jpg" alt="img">
+                    </div>
+                    <h1 class=" text-white py-2">Lorem, ipsum dolor.</h1>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300" class=" m-auto w-full sm:w-3/4 md:w-1/2 lg:w-full  border px-3 border-collapse p-2">
+                    <div  class="_blog border overflow-hidden border-white border-collapse">
+                        <img class="transition w-full hover:scale-150 hover:rotate-12" src="static/img/mybanner.jpg" alt="img">
+                    </div>
+                    <h1 class=" text-white py-2">Lorem, ipsum dolor.</h1>
+                </div>
+
+            </div>
+            <div class="flex justify-center">
+
+                <button data-aos="fade-up"  type="button"
+                    class="inline-block w-fit m-auto px-5 text-white border py-3  border-white hover:bg-white hover:text-[#0c0c0c]">View
+                    All Blogs</button>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="ContactUs" data-aos="fade-up"  class="contact_form py-10 px-2 sm:px-10 border-t">
+            <h1
+                class="text-center text-white font-bold  uppercase text-[4.5rem] sm:text-[2.7rem] transition scale-y-[200%] leading-none sm:scale-y-[300%] sm:scale-x-[130%] my-20 mb-28 sm:mb-20">
+                Stay In Touch</h1>
+            <div class="form_control grid grid-cols-1 gap-y-16 md:gap-0 md:grid-cols-2 items-center justify-center py-10">
+                <aside data-aos="fade-right" data-aos-duration="400" class="text-white text-xl space-y-5 P-4 ">
+                    <h1><strong>Name :</strong><span class="ml-3 text-wrap font-thin">Tuhin Kairi</span></h1>
+                    <h1><strong>Role :</strong> <span class="ml-3 text-wrap font-thin">FULLSTACK DEVELOPER, KIVY APP DEVELOPER, ML & DATA MINING, OTHERS.</span></h1>
+                    <h1><strong>Email :</strong><span class="ml-3 text-wrap font-thin">Something@gmail.com.</span></h1>
+                    <h1><strong>Phone Number :</strong><span class="ml-3 text-wrap font-thin">+91 7865736433 / +91 8847349476</span></h1>
+                    <h1><address><b>Address :</b> <span class="ml-3 text-wrap font-thin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem reiciendis, odit dolores nihil expedita maxime dolor eius? Commodi, dolorem necessitatibus!</span></address></h1>
+                    <h1><strong></strong></h1>
+                    <h1 class="flex items-center"><strong class="whitespace-nowrap strong_info">SOCIAL MEDIA :</strong>
+                        <span class="inline-block">
+
+                            <a class="social_tags bg-transparent ml-3 w-8 h-8  inline-block transition hover:rotate-[25deg]" href="#"><img class=" filter invert" src="static/img/facebook.png" alt=""></a>
+                            <a class="social_tags bg-transparent ml-5 w-8 h-8 inline-block transition hover:rotate-[25deg]" href="#"><img class=" filter invert" src="static/img/insta.png" alt=""></a>
+                        <a class="social_tags bg-transparent ml-5 w-8 h-8 inline-block transition hover:rotate-[25deg]" href="#"><img class=" filter invert" src="static/img/twitter.png" alt=""></a>
+                        <a class="social_tags bg-transparent ml-5 w-8 h-8 inline-block transition hover:rotate-[25deg]" href="#"><img class=" filter invert" src="static/img/github.png" alt=""></a>
+                        <a class="social_tags bg-transparent ml-5 w-8 h-8 inline-block transition hover:rotate-[25deg]" href="#"><img class=" filter invert" src="static/img/linkedin.png" alt=""></a>
+                        <a class="social_tags bg-transparent ml-5 w-8 h-8 inline-block transition hover:rotate-[25deg]" href="#"><img class=" filter invert" src="static/img/fiverr.png" alt=""></a>
+                    </span>
+                    </h1>
+                    
+                </aside>
+                <form data-aos="fade-left" data-aos-duration="400"  action="#" class="flex flex-col  w-full justify-center items-center pt-14 md:pt-0 border-t md:border-t-transparent  md:border-l">
+                    
+                    <section class="w-5/6 sm:w-2/3 md:w-2/4 ">
+
+                        <div class="">
+                            <label for="" class="block text-white text-xl font-bold">Enter Your Name</label>
+
+                            <input type="Text" class="my-3 block w-full p-2 rounded-lg" required
+                                placeholder="Your Name">
+                        </div>
+                        <div class="">
+                            <label for="" class="block text-white text-xl font-bold">Your Email</label>
+                            <input type="email" class="my-3 block w-full p-2 rounded-lg" required
+                                placeholder="YourEmail@gmail.com">
+                        </div>
+                        <div class="">
+                            <label for="" class="block text-white text-xl font-bold">Your Content</label>
+                            <textarea type="" class="my-3 block w-full  h-40 p-2 rounded-lg " required
+                                placeholder="Your subject"></textarea>
+                        </div>
+                    </section>
+
+                    <button
+                        class="inline-block w-fit m-auto px-5 text-white border py-3  border-white hover:bg-white hover:text-[#0c0c0c]">Submit</button>
+                </form>
+            </div>
+
+        </section>
+        <footer class="w-full border-t h-20 text-white flex items-center justify-center">
+            <p>&copy; 2024 Tuhin Kairi. All rights reserved.</p>
+        </footer>
+    </main>
+    <script src="static/js/index.js"></script>
+    <script src="static/js/rotation.js"></script>
+    <script src="static/js/control.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
